@@ -45,7 +45,7 @@ function shownotes() {
     });
     notesobj = JSON.parse(notes);
     let notesElm = document.getElementById("notes");
-    if (notesobj.length != 0) {
+    if(notesobj.length != 0){
         notesElm.innerHTML = html;
     } else {
         notesElm.innerHTML = `Nothing to show! Use "Add a Note" section above to add notes.`;
