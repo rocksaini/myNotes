@@ -1,0 +1,7 @@
+.card{
+    background : url('../image/bgnotes.jpg') no-repeat   center/cover ;
+}
+.notecard{
+    background-color: rgb(214, 231, 230);
+    font-size: 20px;
+}
