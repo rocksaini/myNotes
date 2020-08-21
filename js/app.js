@@ -43,7 +43,7 @@ function shownotes() {
                          </div>
                   </div> `;
     });
-    notesobj = JSON.parse(notes);
+//     notesobj = JSON.parse(notes);
     let notesElm = document.getElementById("notes");
     if(notesobj.length != 0 || notesobj < 1){
         notesElm.innerHTML = html;
